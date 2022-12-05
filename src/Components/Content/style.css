@@ -1,0 +1,76 @@
+.dog_div{
+	width: 1109;
+	height: 533px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.news{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #C25D00;
+	width: 1280px;
+	height: 235px;
+	
+	
+	
+}
+
+.style1{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	/*transform: translate(297px,80px);*/
+}
+
+.style2{
+	
+	color: white;
+	font-size: 21px;
+	font-weight: lighter;
+	
+}
+
+.text{
+	width: 190px;
+	height: 61px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.red_text{
+	color: red;
+}
+.buy_button{
+	width: 128px;
+	height: 38px;
+	background-color: #0DD215;
+	border-radius: 10px;
+}
+
+.description_img{
+	float: right;
+}
+.image_1{
+	float: left;
+}
+.card{
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 120px;
+	width: 330px;
+	height: 64px;
+}
+
+.card_div{
+	/*width: 1075px;
+	height: 374px;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+h1{
+	margin-left: 40px;
+}

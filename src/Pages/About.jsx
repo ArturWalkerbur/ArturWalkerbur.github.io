@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header/Header';
-import Content from '../Components/Content/Content';
+import Content_about from '../Components/Content_about/Content_about';
 import Footer from '../Components/Footer/Footer';
 
 
-function Home() {
+function About() {
 
 	return (
 		<div className="reactsite">
 
 		<Header />
-		<Content />
+		<Content_about />
 		<Footer />
-
+		
 		</div>
 		
 	);
 }
 
-export default Home;
+export default About;

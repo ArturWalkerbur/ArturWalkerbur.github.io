@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Components/Header/Header';
 import Catalog from '../Components/Catalog/Catalog';
-import style from './update.css';
+import Footer from '../Components/Footer/Footer';
 
 
 function Catalogpage() {
@@ -11,6 +11,7 @@ function Catalogpage() {
 
 		<Header />
 		<Catalog />
+		<Footer />
 
 		</div>
 		

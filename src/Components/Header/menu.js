@@ -10,6 +10,6 @@ export const menu = [
 	},
 	{
 		title: 'О нас',
-		link: '/',
+		link: '/about',
 	},
 ];
