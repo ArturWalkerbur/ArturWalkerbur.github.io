@@ -6,7 +6,7 @@ export const menu = [
 	},
 	{
 		title: 'Каталог',
-		link: '/',
+		link: '/catalog',
 	},
 	{
 		title: 'О нас',
