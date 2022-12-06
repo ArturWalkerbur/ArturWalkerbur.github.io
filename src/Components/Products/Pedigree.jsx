@@ -1,13 +1,15 @@
 import React, { Component, useState } from 'react';
 import style from './style.css';
-import {stocks} from '../../assets/imgs/stocks.js';
 import ModalOrder from '../Modals/ModalOrder';
+import {listOfProduct} from './listOfProduct';
+import { useParams } from 'react-router-dom';
+
 
 function Pedigree() {
 
 	const [count, setCount] = useState(1);
 	const [show, setShow] = useState(false);
-
+	const {id} = useParams();
 
 	const BtnOper = (pOperation) => {
 		if(pOperation == '+'){
@@ -27,25 +29,25 @@ function Pedigree() {
 			<div className="characteristics">
 
 				<div className="prodImgCont">
-					<img className = "prodImg" src={stocks[0]} alt='' />
+					<img className = "prodImg" src={listOfProduct[id].img} alt='' />
 				</div>
 				<div className="charContainer">
 					<div className= "charInfo">
 						<ul className="charList">
 							<li>
-								<b>Производитель</b>: ПЕДИГРИ
+								<b>Производитель</b>: {listOfProduct[id].Manufacturer}
 							</li>
 							<li>
-								<b>Модель</b>: 02572
+								<b>Модель</b>: {listOfProduct[id].Model}
 							</li>
 							<li>
-								<b>Артикул</b>: 02572
+								<b>Артикул</b>: {listOfProduct[id].Article}
 							</li>
 							<li>
-								<b>Наличие</b>: В наличии
+								<b>Наличие</b>: {listOfProduct[id].Availability}
 							</li>
 						</ul>
-						<div className="prodPrice">15600₸</div>
+						<div className="prodPrice">{listOfProduct[id].Price}₸</div>
 					</div>
 					<div className="counter">
 						<h4 className="countText">Количество</h4>
@@ -63,10 +65,7 @@ function Pedigree() {
 			</div>
 			<div className="description">
 				<h3>Обзор товара</h3>
-				<p>Рацион PEDIGREE® — это полезная и вкусная еда, приготовленная с учетом физиологических потребностей собак,
-				еда, которой нужно кормить регулярно.Проведенные исследования показывают, что у собак, которых регулярно кормили PEDIGREE®,
-				улучшалось пищеварение и, как следствие, общее здоровье.Ветеринарный врач судит о здоровье собаки по нескольким признакам,
-				а вам следует обращать внимание на качество ее стула.</p>
+				<p>{listOfProduct[id].Descrip}</p>
 			</div>
 			<ModalOrder show={show} />
 		</div>

@@ -29,7 +29,7 @@ function App() {
         <Route path='/' element={<Home links={links}/>}/>
         <Route path='/catalog' element={<Catalogpage links={links}/>} />
         <Route path='/about' element={<About links={links}/>} />
-        <Route path='/product' element={<Product links={links}/>} />
+        <Route path='/product/:id' element={<Product links={links}/>} />
 
         
       </Routes>

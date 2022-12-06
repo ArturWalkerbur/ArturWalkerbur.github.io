@@ -34,7 +34,7 @@ function Content() {
 				
 				<p> Цена: <span className = "red_text">15000тг</span></p>
 				
-				<button className = "buy_button" onClick={() => navigate("/product")}>
+				<button className = "buy_button" onClick={() => navigate("/product/0")}>
 					Купить
 				</button>
 				</div>
@@ -47,7 +47,7 @@ function Content() {
 				
 				<p> Цена: <span className = "red_text">9000тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product/1")}>
 					Купить
 				</button>
 				</div>
@@ -60,7 +60,7 @@ function Content() {
 				
 				<p> Цена: <span className = "red_text">15000тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product/2")}>
 					Купить
 				</button>
 				</div>
@@ -73,7 +73,7 @@ function Content() {
 				
 				<p> Цена: <span className = "red_text">32000тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product/3")}>
 					Купить
 				</button>
 				</div>
@@ -84,9 +84,9 @@ function Content() {
 				<div className = "description_img">
 				<p className = "text">ECO-Premium ,комкующийся древесный наполнитель 20л</p>
 				
-				<p> Цена: <span className = "red_text">15000тг</span></p>
+				<p> Цена: <span className = "red_text">4959тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product/4")}>
 					Купить
 				</button>
 				</div>
@@ -97,9 +97,9 @@ function Content() {
 				<div className = "description_img">
 				<p className = "text">Плетеный домик-лежанка с подушками - 54х43х54 см</p>
 				
-				<p> Цена: <span className = "red_text">15000тг</span></p>
+				<p> Цена: <span className = "red_text">21000тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product/5")}>
 					Купить
 				</button>
 				</div>

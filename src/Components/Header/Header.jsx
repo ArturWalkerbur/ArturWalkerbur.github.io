@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../assets/imgs/logo.png';
 import style from './style.css';
-
+import { Link } from "react-router-dom";
 
 function Header(props) {
 	let menu = props.links;
@@ -16,7 +16,7 @@ function Header(props) {
 				<ul className="menu">
 					{menu.map((item, idx) =>(
 						<li className="menu-list" key={`menu item ${idx}`}>
-							<a className="menu-items" href={item.link}>{item.title}</a>
+							<Link className="menu-items" to={item.link}>{item.title}</Link>
 						</li>
 						))}
 					
