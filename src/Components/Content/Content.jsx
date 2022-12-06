@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { useNavigate } from "react-router-dom";
 import style from './style.css';
 import dog from '../../assets/imgs/dog_cover.png';
 import image_1 from '../../assets/imgs/image 1.png';
@@ -7,7 +8,12 @@ import image_3 from '../../assets/imgs/image 3.png';
 import image_4 from '../../assets/imgs/image 4.png';
 import image_5 from '../../assets/imgs/image 5.png';
 import image_6 from '../../assets/imgs/image 6.png';
+
+
 function Content() {
+
+  	const navigate = useNavigate();
+
 
 	return (
 		<div className="content">
@@ -28,7 +34,7 @@ function Content() {
 				
 				<p> Цена: <span className = "red_text">15000тг</span></p>
 				
-				<button className = "buy_button">
+				<button className = "buy_button" onClick={() => navigate("/product")}>
 					Купить
 				</button>
 				</div>

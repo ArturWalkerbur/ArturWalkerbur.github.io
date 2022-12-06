@@ -1,0 +1,62 @@
+.modalOrder{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: Rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.modelWindow{
+	width: 400px;
+	height: 300px;
+	background-color: white;
+
+}
+
+.modalTitle{
+	margin: 0;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.formOrder{
+	margin-left: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.lbls{
+	margin-bottom: 50px;
+}
+
+.intutsstyle{
+	margin-bottom: 10px;
+}
+
+.BtnSend{
+	margin: 0;
+	margin: auto;
+	margin-top: 10px;
+	background-color: orangered;
+	color: white;
+	font-size: 24px;
+	border-radius: 100px;
+	border-color: white;
+}
+
+.btnCancel{
+	position: absolute;
+	margin-top: -250px;
+	margin-left: 385px;
+	font-size: 20px;
+	width: 30px;
+	background-color: red;
+	color: white;
+}

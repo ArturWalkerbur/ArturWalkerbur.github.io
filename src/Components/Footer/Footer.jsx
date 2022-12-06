@@ -15,9 +15,9 @@ function Footer() {
 			<div className="footer_info">
 				<div className='footer_contaner'>
 					<h3 className='info_titile'>Основные ссылки</h3>
-					<p className='footer_text'><a className='footer_link' href="">Главная</a></p>
-					<p className='footer_text'><a className='footer_link' href="">Каталог</a></p>
-					<p className='footer_text'><a className='footer_link' href="">О нас</a></p>
+					<p className='footer_text'><a className='footer_link' href="/">Главная</a></p>
+					<p className='footer_text'><a className='footer_link' href="/catalog">Каталог</a></p>
+					<p className='footer_text'><a className='footer_link' href="/about">О нас</a></p>
 
 				</div>
 

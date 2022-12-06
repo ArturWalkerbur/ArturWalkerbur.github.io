@@ -1,0 +1,98 @@
+.zooProduct{
+	width: 80%;
+	margin: auto;
+	margin-top: 8%;
+	margin-bottom: 10%;
+}
+
+.characteristics{
+	display: flex;
+	margin-left: 5%;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.prodImgCont{
+	width: 40%;
+}
+
+.prodImg{
+	width: 80%;
+}
+
+.charContainer{
+	width: 30%;
+}
+
+.charList{
+	font-size: 20px;
+}
+
+.prodPrice{
+	font-size: 24px;
+	width: 42%;
+	text-align: center;
+	background-color: #CBCDCF;
+	border-radius: 100px;
+	height: 42px;
+	vertical-align: middle;
+	padding-top: 10px;
+	margin-left: 24px;
+}
+
+.counter{
+	margin-left: 30px;
+}
+
+.countText{
+	font-size: 18px;
+}
+
+.countProd{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.countManipulation{
+	display: flex;
+	margin-top: -30px;
+
+}
+
+.arifmeticBtnmin{
+	font-size: 60px;
+	margin-right: 10px;
+	background-color: transparent;
+	border: none;
+	padding-top: 0px;
+}
+
+.arifmeticBtnplu{
+	font-size: 40px;
+	width: 20%;
+	background-color: transparent;
+	border: none;
+	padding-top: 0px;
+
+}
+
+.orderProd{
+	margin-left: 16px;
+}
+
+.orderBtn{
+	background-color: #22DDD2;
+	border: inherit;
+	font-size: 32px;
+	font-weight: lighter;
+	border-radius: 100px;
+	padding: 12px 26px;
+}
+
+.description{
+	font-size: 120%;
+}
+
+.description h3{
+	font-size: 150%;
+}
