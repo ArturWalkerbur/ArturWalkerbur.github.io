@@ -33,6 +33,8 @@ export default class ModalOrder extends Component {
 					</div>
 				</div>
 			);
-		} 
+		} else {
+			
+		}
 	}
 }
