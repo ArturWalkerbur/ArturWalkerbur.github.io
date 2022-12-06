@@ -4,12 +4,12 @@ import Content from '../Components/Content/Content';
 import Footer from '../Components/Footer/Footer';
 
 
-function Home() {
+function Home(props) {
 
 	return (
 		<div className="reactsite">
-
-		<Header />
+		
+		<Header links={props.links}/>
 		<Content />
 		<Footer />
 

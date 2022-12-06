@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from '../../assets/imgs/logo.png';
 import style from './style.css';
-import {menu} from './menu';
 
-function Header() {
 
+function Header(props) {
+	let menu = props.links;
 	return (
 		<div className="header">
 

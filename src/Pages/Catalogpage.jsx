@@ -4,16 +4,16 @@ import Catalog from '../Components/Catalog/Catalog';
 import Footer from '../Components/Footer/Footer';
 
 
-function Catalogpage() {
+function Catalogpage(props) {
 
 	return (
 		<div className="reactsite">
 
-		<Header />
+		<Header links={props.links}/>
 		<Catalog />
 		<Footer />
-
 		</div>
+
 		
 	);
 }

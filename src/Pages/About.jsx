@@ -4,12 +4,12 @@ import Content_about from '../Components/Content_about/Content_about';
 import Footer from '../Components/Footer/Footer';
 
 
-function About() {
+function About(props) {
 
 	return (
 		<div className="reactsite">
 
-		<Header />
+		<Header links={props.links}/>
 		<Content_about />
 		<Footer />
 		

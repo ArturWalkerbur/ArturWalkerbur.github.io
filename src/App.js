@@ -7,12 +7,27 @@ import About from './Pages/About';
 
 
 function App() {
+  let links = [
+
+    {
+      title: 'Главная',
+      link: '/',
+    },
+    {
+      title: 'Каталог',
+      link: '/catalog',
+    },
+    {
+      title: 'О нас',
+      link: '/about',
+    },
+  ];
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/catalog' element={<Catalogpage/>} />
-        <Route path='/about' element={<About/>} />
+        <Route path='/' element={<Home links={links}/>}/>
+        <Route path='/catalog' element={<Catalogpage links={links}/>} />
+        <Route path='/about' element={<About links={links}/>} />
         
       </Routes>
     </div>
