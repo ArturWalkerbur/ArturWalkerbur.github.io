@@ -46,7 +46,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle"><Link className="linkin" to="/catalog/birds">Товары для птиц</Link></h3>
+					<h3 className="categoryTitle3"><Link className="linkin" to="/catalog/birds">Товары для птиц</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
@@ -54,7 +54,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle"><Link className="linkin" to="/catalog/fishes">Товары для рыб</Link></h3>
+					<h3 className="categoryTitle3"><Link className="linkin" to="/catalog/fishes">Товары для рыб</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
