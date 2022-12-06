@@ -10,7 +10,7 @@ function Header(props) {
 
 			<div className="logo">
 				<img className = "logoimg" src={logo} alt='' />
-				<h1 className = "title">The <b className = "Zoo">Zoo</b>love</h1>
+				<h1 className = "title"><Link className="titleLinkTheZoo" to="/catalog/cats">The <b className = "Zoo">Zoo</b>love</Link></h1>
 			</div>
 			<div className = "nav">
 				<ul className="menu">

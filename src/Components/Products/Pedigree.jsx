@@ -4,7 +4,6 @@ import ModalOrder from '../Modals/ModalOrder';
 import {listOfProduct} from './listOfProduct';
 import { useParams } from 'react-router-dom';
 
-
 function Pedigree() {
 
 	const [count, setCount] = useState(1);

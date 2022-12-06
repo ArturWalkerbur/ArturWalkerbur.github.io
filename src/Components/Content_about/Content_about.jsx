@@ -4,6 +4,9 @@ import dog from '../../assets/imgs/dog.png';
 import about_1 from '../../assets/imgs/about_1.png';
 import about_2 from '../../assets/imgs/about_2.png';
 import about_3 from '../../assets/imgs/about_3.png';
+import { Link } from "react-router-dom";
+
+
 function Content() {
 
 	return (
@@ -41,12 +44,12 @@ function Content() {
                 <div className='description_1'>
                 Что мы предоставляем:
                 <ul>
-                <li><a className="linkin" href="/">Товары для кошек</a></li>
-                <li><a className="linkin" href="/">Товары для собак</a></li>
-                <li><a className="linkin" href="/">Товары для птиц</a></li>
-                <li><a className="linkin" href="/">Товары для грызунов</a></li>
-                <li><a className="linkin" href="/">Товары для рыб</a></li>
-                <li><a className="linkin" href="/">Товары для рептилий</a></li>
+                <li><Link className="linkin" to="/catalog/cats">Товары для кошек</Link></li>
+                <li><Link className="linkin" to="/catalog/dogs">Товары для собак</Link></li>
+                <li><Link className="linkin" to="/catalog/birds">Товары для птиц</Link></li>
+                <li><Link className="linkin" to="/catalog/rats">Товары для грызунов</Link></li>
+                <li><Link className="linkin" to="/catalog/fishes">Товары для рыб</Link></li>
+                <li><Link className="linkin" to="/catalog/reptiles">Товары для рептилий</Link></li>
                 </ul>
                 </div>
             </div>
