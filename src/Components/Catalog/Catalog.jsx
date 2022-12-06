@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import style from './style.css';
 import {categoryImg} from '../../assets/imgs/categoryImg.js';
+import { Link } from "react-router-dom";
 
 function Catalog() {
 
@@ -17,7 +18,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle2"><a className="linkin" href="/">Товары для кошек</a></h3>
+					<h3 className="categoryTitle2"><Link className="linkin" to="/catalog/cats">Товары для кошек</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
@@ -25,7 +26,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle2"><a className="linkin" href="/">Товары для собак</a></h3>
+					<h3 className="categoryTitle2"><Link className="linkin" to="/catalog/dogs">Товары для собак</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
@@ -33,7 +34,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle2"><a className="linkin" href="/">Товары для грызунов</a></h3>
+					<h3 className="categoryTitle2"><Link className="linkin" to="/catalog/rats">Товары для грызунов</Link></h3>
 				</div>
 
 			</div>
@@ -45,7 +46,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle"><a className="linkin" href="/">Товары для птиц</a></h3>
+					<h3 className="categoryTitle"><Link className="linkin" to="/catalog/birds">Товары для птиц</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
@@ -53,7 +54,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle"><a className="linkin" href="/">Товары для рыб</a></h3>
+					<h3 className="categoryTitle"><Link className="linkin" to="/catalog/fishes">Товары для рыб</Link></h3>
 				</div>
 				<div className="column">
 					<div className="imgcat">
@@ -61,7 +62,7 @@ function Catalog() {
 						
 					</div>
 					
-					<h3 className="categoryTitle2"><a className="linkin" href="/">Товары для рептили</a></h3>
+					<h3 className="categoryTitle2"><Link className="linkin" to="/catalog/reptiles">Товары для рептилии</Link></h3>
 				</div>
 
 			</div>

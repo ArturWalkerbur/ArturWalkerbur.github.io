@@ -4,6 +4,8 @@ import Home from './Pages/Home';
 import Catalogpage from './Pages/Catalogpage';
 import About from './Pages/About';
 import Product from './Pages/Product';
+import Categories from './Pages/Categories';
+
 
 
 
@@ -28,9 +30,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home links={links}/>}/>
         <Route path='/catalog' element={<Catalogpage links={links}/>} />
+        <Route path='/catalog/:category' element={<Categories links={links}/>} />
         <Route path='/about' element={<About links={links}/>} />
         <Route path='/product/:id' element={<Product links={links}/>} />
-
+        
         
       </Routes>
     </div>
